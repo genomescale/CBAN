@@ -1,0 +1,53 @@
+<packages>
+
+    <package name='Babel' version='0.1.1'
+           url="https://github.com/rbouckaert/Babel/releases/download/0.0.1/Babel.addon.v0.1.1.zip"
+           description="BABEL = BEAST analysis backing effective linguistics">
+        <depends on='beast2' atleast='2.4.0'/>
+        <depends on='BEASTLabs' atleast='1.5.3'/>
+    </package>
+    <package name='Babel' version='0.1.3'
+           url="https://github.com/rbouckaert/Babel/releases/download/0.0.1/Babel.addon.v0.1.3.zip"
+           description="BABEL = BEAST analysis backing effective linguistics">
+        <depends on='beast2' atleast='2.4.3'/>
+        <depends on='BEASTLabs' atleast='1.6.0'/>
+    </package>
+
+    <package name='LanguageSequenceGen' version='0.1.0'
+            url="https://github.com/lutrasdebtra/Beast-Borrowing-Plugin/releases/download/v0.1.0/LanguageSequenceGen.addon.v0.1.0.zip"
+            description="generates synthetic language data"
+            projectURL="https://github.com/lutrasdebtra/Beast-Borrowing-Plugin">
+	    <depends on='beast2' atleast='2.4.3'/>
+        <depends on="BEASTLabs" atleast="1.6.0"/>
+    </package>
+  
+    <package name="correlatedcharacters" version="1.2.0"
+       url="https://github.com/Anaphory/correlatedcharacters/releases/download/v1.2.0/correlatedcharacters.v1.2.0.zip"
+       description="implementing elements of Pagel &amp; Meade=&apos;s CorrelatedEvolution: A reversible substitution model for correlated morphological characters"
+       projectURL="https://github.com/Anaphory/correlatedcharacters">
+    	<depends on='beast2' atleast='2.4.0'/>
+    </package>
+
+    <package name="parameterclone" version="1.0.2"
+       url="https://github.com/Anaphory/parameterclone/releases/download/v1.0.2/parameterclone.v1.0.2.zip"
+       description="implementing Merge and Split operators for reversible-jump markov chains selecting models with various parameter size"
+       projectURL="https://github.com/Anaphory/parameterclone">
+    	<depends on='beast2' atleast='2.4.0'/>
+    </package>
+
+    <package name="TreeSetAnalyser" version="0.0.1"
+       url="https://github.com/rbouckaert/TreeSetAnalyser/releases/download/v0.0.1/TreeSetAnalyser.addon.v0.0.1.zip"
+       description="analyses with a fixed tree or set of trees"
+       projectURL="https://github.com/rbouckaert/TreeSetAnalyser">
+    	<depends on='beast2' atleast='2.4.3'/>
+    </package>
+
+    <package name="EpochClockModel" version="0.0.1"
+	url="https://github.com/rbouckaert/EpochClockModel/releases/download/v0.0.1/EpochClockModel.v0.0.1.zip"
+       description="clock model that applies different relative rates accross different epochs"
+       projectURL="https://github.com/rbouckaert/EpochClockModel">
+    	<depends on='beast2' atleast='2.4.0'/>
+    </package>
+
+
+</packages>
